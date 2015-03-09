@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    
+    <EditText android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="input email"
+        android:inputType="textEmailAddress" />
+    
+    <EditText android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="input password"
+        android:inputType="textPassword" />
+    
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="로그인"
+        android:onClick="onLoginButtonClick" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="이메일로 회원가입"
+        android:onClick="onJoinButtonClick" />
+
+</LinearLayout>
